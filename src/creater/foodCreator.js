@@ -45,7 +45,7 @@ function createItem(type, numOf) {
     const foodImg = document.createElement('img');
     foodContainer.appendChild(foodImg);
     foodImg.setAttribute('class', 'foodImg');
-    foodImg.setAttribute('src', '../../dist/' + type + '.jpg');
+    foodImg.setAttribute('src', type + '.jpg');
 
     const foodInfo = document.createElement('div');
     foodContainer.appendChild(foodInfo);
