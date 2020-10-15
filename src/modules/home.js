@@ -17,7 +17,7 @@ export default function home() {
 
   const aboutUsImg = document.createElement('img');
   aboutUsFigure.appendChild(aboutUsImg);
-  aboutUsImg.setAttribute('src', '../../public/aboutUs.jpg');
+  aboutUsImg.setAttribute('src', '../../dist/aboutUs.jpg');
   aboutUsImg.setAttribute('id', 'aboutUsImg');
 
   const aboutUsP1 = document.createElement('p');
