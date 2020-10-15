@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#content {
+  margin: 0px 20px 20px 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: 'Architects Daughter', cursive;
+  height: 100%;
+  overflow: auto;
+}
+.myHeader {
+  background-image: url(../public/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 400px;
+}
+#title {
+  font-family: 'Italianno', cursive;
+  text-align: center;
+  color: red;
+  font-size: 10em;
+  text-shadow: 0px 0px 2px white;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+html {
+  background-color: rgb(243, 239, 188);
+}
+.myNav {
+  display: flex;
+  /* justify-content: space-around; */
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Architects Daughter', cursive;
+}
+.myNavInput {
+  display: none;
+}
+
+.myNavInput:checked + .myNavLabel {
+  background-color: black;
+  color: white;
+}
+.myNavLabel {
+  display: block;
+  padding: 10px 20px;
+}
+#aboutUsImg {
+}
+#aboutUsFigure {
+  float: right;
+  padding-left: 20px;
+  width: 40%;
+
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 4em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 10px 0px;
+}
+p {
+  font-size: 20px;
+}
+#imp {
+  text-align: center;
+}
+.bhList {
+  list-style-type: none;
+}
+.bhListItem {
+  font-size: 20px;
+}
+.menuOptions {
+  background-color: black;
+  color: white;
+}
+.myOptionsInput:checked + .myOptionsLable {
+  background-color: white;
+  color: black;
+}
+.menuContent {
+  background-color: white;
+  padding: 20px;
+}
+.foodItem {
+  list-style-type: none;
+  color: black;
+  margin: 5px 0px;
+}
+.foodContainer {
+  display: flex;
+  border: 1px solid black;
+  min-width: 500px;
+}
+.foodImg {
+  width: 8%;
+  height: 8%;
+  margin: 10px;
+}
+.foodInfo {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+.foodHeader {
+  font-weight: bold;
+  font-size: 30px;
+}
+.foodDetails {
+  font-style: italic;
+  font-size: 20px;
+}
+.foodPriceContainer {
+  width: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.foodPrize {
+  font-size: 30px;
+}
